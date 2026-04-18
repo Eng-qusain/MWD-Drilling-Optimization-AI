@@ -33,10 +33,13 @@ Simulated MWD dataset including:
 
 ---
 
-## 🛠 Tools
+## 🛠 Tech Stack
 
-* Python (Pandas, Scikit-learn)
-* SQL (optional later)
+- Python (Pandas, NumPy, Scikit-learn) – data processing and machine learning  
+- SQL (MySQL / PostgreSQL) – structured data storage and querying  
+- Streamlit – interactive dashboard for model visualization  
+- Matplotlib / Seaborn – data visualization and analysis  
+- Git & GitHub – version control and project management  
 
 ---
 
