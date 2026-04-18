@@ -1,65 +1,73 @@
-# MWD Drilling Optimization (AI)
+# 🛢️ MWD Drilling Optimization using Machine Learning
 
-## 📌 Problem
-
-Drilling inefficiencies increase operational cost and time. Optimizing drilling parameters such as Rate of Penetration (ROP) is critical for performance.
+## 📌 Problem Statement
+Drilling operations in oil & gas are highly sensitive to inefficiencies, which directly increase operational cost and non-productive time (NPT). Optimizing drilling performance, particularly Rate of Penetration (ROP), is critical for improving operational efficiency.
 
 ---
 
 ## 🎯 Objective
-
-Develop a data-driven model to predict drilling performance using MWD/LWD data.
-
----
-
-## 📊 Data
-
-Simulated MWD dataset including:
-
-* Depth
-* Weight on Bit (WOB)
-* RPM
-* Flow Rate
-* Inclination
-* ROP
+To develop a machine learning model that predicts drilling performance (ROP) using MWD/LWD-derived drilling parameters and identifies key factors affecting drilling efficiency.
 
 ---
 
-## ⚙️ Method
+## 📊 Dataset
+This project uses a **simulated MWD dataset** designed based on real-world drilling engineering principles and parameter relationships.
 
-* Data cleaning and preprocessing
-* Exploratory data analysis
-* Machine learning model for prediction
+The dataset includes realistic interactions between drilling variables such as:
+
+- Depth (m)  
+- Weight on Bit (WOB)  
+- RPM  
+- Flow Rate  
+- Mud Weight  
+- Inclination  
+- Torque  
+- Standpipe Pressure  
+- ROP (target variable)
+
+Due to data confidentiality constraints, no proprietary or field data is used. Instead, the dataset reflects realistic drilling behavior trends observed in oil & gas operations.
+
+---
+
+## ⚙️ Methodology
+
+1. Data generation / simulation based on drilling engineering relationships  
+2. Data preprocessing and feature engineering  
+3. Exploratory Data Analysis (EDA)  
+4. Machine Learning model development for ROP prediction  
+5. Model evaluation and interpretation  
 
 ---
 
 ## 🛠 Tech Stack
 
 - Python (Pandas, NumPy, Scikit-learn) – data processing and machine learning  
-- SQL (MySQL / PostgreSQL) – structured data storage and querying  
-- Streamlit – interactive dashboard for model visualization  
-- Matplotlib / Seaborn – data visualization and analysis  
+- SQL (MySQL / PostgreSQL) – structured data handling and storage  
+- Streamlit – interactive web dashboard for model visualization  
+- Matplotlib / Seaborn – data analysis and visualization  
 - Git & GitHub – version control and project management  
-
----
-
-## 📊 Dataset
-
-This project uses a simulated dataset designed based on real-world drilling engineering principles.
-
-The dataset reflects realistic relationships between drilling parameters such as WOB, RPM, depth, and ROP.
-
-Due to data confidentiality, no real field data is included.
 
 ---
 
 ## 📈 Expected Output
 
-* Prediction of ROP
-* Insights into drilling performance
+- Predictive model for Rate of Penetration (ROP)  
+- Identification of key drilling performance drivers  
+- Insights into drilling parameter optimization  
 
 ---
 
 ## 💡 Business Value
 
-Helps optimize drilling operations, reduce time and cost, and improve decision-making in oil & gas projects.
+This project demonstrates how machine learning can be applied in oil & gas drilling operations to:
+
+- Improve drilling efficiency  
+- Reduce non-productive time (NPT)  
+- Support data-driven decision-making in drilling operations  
+- Bridge petroleum engineering domain knowledge with modern data science techniques  
+
+---
+
+## 🧠 Domain Insight
+
+This work is grounded in petroleum engineering principles, particularly drilling mechanics and MWD/LWD data interpretation, combined with machine learning techniques for predictive analytics.
