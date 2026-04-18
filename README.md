@@ -43,6 +43,16 @@ Simulated MWD dataset including:
 
 ---
 
+## 📊 Dataset
+
+This project uses a simulated dataset designed based on real-world drilling engineering principles.
+
+The dataset reflects realistic relationships between drilling parameters such as WOB, RPM, depth, and ROP.
+
+Due to data confidentiality, no real field data is included.
+
+---
+
 ## 📈 Expected Output
 
 * Prediction of ROP
