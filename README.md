@@ -49,15 +49,39 @@ Due to data confidentiality constraints, no proprietary or field data is used. I
 
 ---
 
-## 📈 Expected Output
+## Results
 
-- Predictive model for Rate of Penetration (ROP)  
-- Identification of key drilling performance drivers  
-- Insights into drilling parameter optimization  
+Multiple machine learning models were evaluated for predicting Rate of Penetration (ROP) using simulated MWD drilling parameters.
+
+Linear Regression achieved the strongest performance:
+
+- MAE: 3.33
+- R² Score: 0.87
+
+More complex ensemble methods such as Random Forest and XGBoost underperformed on the simulated dataset, suggesting predominantly linear relationships between drilling parameters and ROP.
+
+Feature importance analysis identified RPM, Depth, and WOB as the primary drivers influencing drilling performance.
+
+### Model Comparison Table
+
+| Model             | MAE  | R²   |
+| ----------------- | ---- | ---- |
+| Linear Regression | 3.33 | 0.87 |
+| Random Forest     | 4.24 | 0.79 |
+| XGBoost           | 4.61 | 0.76 |
+
 
 ---
 
-## 💡 Business Value
+## Engineering Interpretation
+
+The results indicate that drilling performance within the simulated environment follows relatively structured and near-linear behavior patterns. While advanced ensemble models were evaluated, simpler linear models generalized more effectively.
+
+This highlights the importance of matching machine learning model complexity to drilling data characteristics rather than assuming more complex algorithms will always perform better.
+
+---
+
+## 💡 Operational Relevance
 
 This project demonstrates how machine learning can be applied in oil & gas drilling operations to:
 
